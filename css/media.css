@@ -403,6 +403,12 @@
         flex-direction: column;
         gap: 15px;
         align-items: center;
+
+        padding: 5px;
+
+        position: absolute;
+        left: 320px;
+        background-color: #fff;
     }
 
     .promo__content {
