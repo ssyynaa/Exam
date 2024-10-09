@@ -512,6 +512,10 @@
         transform: scale(0.8);
     }
 
+    input#header__nav_toggle:checked ~ .header__nav_list {
+        left: 215px;
+    }
+
     .promo__content {
         width: 70%;
     }
