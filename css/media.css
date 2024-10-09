@@ -560,9 +560,14 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .header .container {
         flex-direction: column;
+    }
+
+    input#header__nav_toggle:checked ~ .header__nav_list {
+        left: 150px;
+        z-index: 1;
     }
 
     .info__content {
