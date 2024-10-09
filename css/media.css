@@ -576,6 +576,10 @@
 }
 
 @media (max-width: 320px) {
+    input#header__nav_toggle:checked ~ .header__nav_list {
+        left: 120px;
+    }
+    
     .categories__title {
         font-size: 15px;
         line-height: 25px;
