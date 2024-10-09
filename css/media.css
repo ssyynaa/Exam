@@ -407,7 +407,7 @@
         padding: 5px 10px;
 
         position: absolute;
-        left: 320px;
+        left: 315px;
         background-color: #fff;
     }
 
@@ -513,7 +513,7 @@
     }
 
     input#header__nav_toggle:checked ~ .header__nav_list {
-        left: 215px;
+        left: 210px;
     }
 
     .promo__content {
@@ -566,7 +566,7 @@
     }
 
     input#header__nav_toggle:checked ~ .header__nav_list {
-        left: 150px;
+        left: 145px;
         z-index: 1;
     }
 
